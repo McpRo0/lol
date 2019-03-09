@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		// var arr = ["Кошка","Собака","Заец","Лиса","Терминатор"];
+		//
+		// for(var i = 0;i < arr.length; i+=2) {
+		// 	console.log(arr[i])
+		// }
+		// for(var i = 0;i < arr.length; i==2) {
+		// 	if(i % 2 == 0 || i == 0)
+		// 	console.log(arr[i])
+		// }
+	// 	var num = prompt("Введите кол-во покупок","");
+	// 	var cart = [];
+	// 	for(var i = 0; i < num; i++) {
+	// 	var goods = prompt("Введите название покупки");
+	// 	if (goods === null) {
+	// 		var message = confirm("Разгрузить корзину?","");
+	///////////////////////////////////////////////////////////////
+	// 		if (message) {
+	// 			break
+	// 		}
+	// 		else{
+	// 			cart = "Корзина пуста"
+	// 			break;
+	// 		}
+	// 	}
+	// 	else{
+	// 	cart.push(goods)
+ //        }
+	// 		}
+	// console.log(cart)
+	// alert("первый \" ряд") //позволяет вставлять зарезервированые символы//
+	///////////////////////////////////////////////////////////////
+	// var text = "Some Text";
+	// var textUpper = text.slice(7, -8);
+	// console.log(textUpper)
+	///////////////////////////////////////////////////////////////
+	var text = prompt("Some text","");
+	var text2 = " ";
+	for (var i = text.length-1;i>=0;i--) {
+		text2 = text + text[i];
+	}
+	console.log(`Перевернутый текст выглядит так: $(result)`)
+	</script>
+</body>
+</html>
